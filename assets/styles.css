@@ -8,7 +8,9 @@ body {
 
 }
 
-p {
-
+search-btn {
+max-height: 150px;
+color: rgb 150 50 50;
+padding: 15px;
 }
 
