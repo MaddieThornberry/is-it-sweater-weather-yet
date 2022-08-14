@@ -5,22 +5,60 @@
 }
 
 body {
-
-}
-
-container {
-display: flex;
-background-color: white;
-}
-
-search-btn {
-    max-height: 150px;
-    color: rgb 150 50 50;
+    margin: 15px;
     padding: 15px;
 }
 
-button {
-    max-height: 150px;
-    color: rgb 150 150 150;
-    padding: 15px;   
+.dashboard {
+    font-size: 50px;
+    text-align: center;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 2px;
 }
+.search-btn {
+    max-height: 150px;
+/*    max-width: 320px; */
+    background-color: rgb(68, 194, 249);
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: none;
+}
+
+.container {
+display: grid;
+background-color: white;
+max-width: 320px;
+padding: 5px 5px 10px;
+}
+
+.divider-line {
+    max-width: 310px;
+    background-color: grey;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#selector {
+    max-height: 200px;
+    max-width: 320px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.city-btn {
+    max-height: 150px;
+    background-color: grey;
+    color: rgb 150 150 150;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;  
+    margin-top: 10px; 
+}
+
