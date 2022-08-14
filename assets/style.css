@@ -9,6 +9,12 @@ body {
     padding: 15px;
 }
 
+p {
+    font-weight: 900;
+    font-size: 25px;
+    margin: 10px;
+}
+
 .dashboard {
     font-size: 50px;
     text-align: center;
@@ -18,10 +24,11 @@ body {
     border-radius: 2px;
 }
 .search-btn {
-    max-height: 150px;
-/*    max-width: 320px; */
+    font-size: 20px;
+    height: 50px;
+    width: 310px; 
     background-color: rgb(68, 194, 249);
-    color: black;
+    color: white;
     border-radius: 5px;
     margin-left: 5px;
     margin-bottom: 10px;
@@ -45,14 +52,17 @@ padding: 5px 5px 10px;
 }
 
 #selector {
-    max-height: 200px;
-    max-width: 320px;
+    font-size: 20px;
+    height: 50px;
+    width: 310px;
+    border: solid, darkslategrey;
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
 }
 
 .city-btn {
+    font-size: 20px;
     max-height: 150px;
     background-color: grey;
     color: rgb 150 150 150;
@@ -62,3 +72,23 @@ padding: 5px 5px 10px;
     margin-top: 10px; 
 }
 
+.master-card {
+    display: grid;
+    font-size: 20px;
+    height: 300px;
+    width: 380px;
+    background-color: navy;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+.card {
+    display: flex;
+    background-color: rgb(76, 76, 238);
+    boder 1px solid rgb(75, 75, 237);
+    border-radius: 5px;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+}
