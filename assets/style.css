@@ -3,7 +3,7 @@
    3. middle -cards
    4. footer
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 * {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
@@ -23,7 +23,6 @@ p {
 }
 
 .dashboard {
-    grid-area: dashboard;
     font-size: 50px;
     text-align: center;
     background-color: rgb(104, 104, 251);
@@ -32,6 +31,20 @@ p {
     padding: 15px;
     border-radius: 2px;
 }
+
+/* help from https://cssgrid-generator.netlify.app/ */
+/* still not applying in live :( */
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+    
+    .container1 { grid-area: 1 / 1 / 4 / 3; }
+    .container2 { grid-area: 1 / 3 / 3 / 8; }
+    .container3 { grid-area: 3 / 3 / 4 / 8; }
 
 .search-btn {
     font-size: 20px;
@@ -67,7 +80,7 @@ p {
 }
 
 .city-btn {
-    display: grid;
+/*    display: grid;*/
     font-size: 20px;
     height: 50px;
     width: 310px;
@@ -80,23 +93,6 @@ p {
     margin-left: 5px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 16rem 1fr 16rem;
-    grid-template-rows: auto 1fr auto;
-}
-
-.container1 {
-    
-}
-
-.container2 {
-    
-}
-
-container3 {
-    
-}
 
 .master-card {
     font-size: 20px;
@@ -114,7 +110,8 @@ container3 {
     background-color: rgb(76, 76, 238);
     border:  1px solid rgb(75, 75, 237);
     border-radius: 5px;
-    justify-content: start;
+    justify-content: end;
     margin: 5px;
     padding: 10px;
 }
+
