@@ -10,6 +10,8 @@
 </head>
 <body>
     <div class="dashboard">Weather Dashboard</div>
+    <div class="container">
+        <wrapper class="cities">
     <div class="city">
         <p class="search-city">Search for a City:</p>
         <input name="select" id="selector" class="select-city" placeholder="San Jose"></input><br>
@@ -30,11 +32,15 @@
             <button class="city-btn">Detroit</button>
         </div>
     </div>
+</wrapper>
+<wrapper class="master">
     <div class="master-card">
         <div class="chosen-city">
             <p class="chosen">Atlanta, etc</p>
         </div>
     </div>
+</wrapper>
+<wrapper class="card-tiles">
     <div class="cards">
      <div class="card card1">
          <div class="card-header">City</div>
@@ -66,6 +72,8 @@
         <div class="card-body">wind</div>
         <div class="card-footer">humidity</div>
      </div>
+    </div>
+</wrapper>
 </div>
     <script src="script.js"></script>
 </body>
